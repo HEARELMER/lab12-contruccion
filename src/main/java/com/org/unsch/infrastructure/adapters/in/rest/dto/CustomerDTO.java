@@ -1,6 +1,6 @@
-package com.tu.proyecto.infrastructure.adapters.in.rest.dto;
+package com.org.unsch.infrastructure.adapters.in.rest.dto;
 
-import com.tu.proyecto.domain.model.Customer;
+import com.org.unsch.domain.model.Customer;
 
 public class CustomerDTO {
     private Long id;

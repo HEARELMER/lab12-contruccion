@@ -1,4 +1,4 @@
-package com.tu.proyecto.infrastructure.adapters.out.persistence.entity;
+package com.org.unsch.infrastructure.adapters.out.persistence.entity;
 
 import jakarta.persistence.*;
 

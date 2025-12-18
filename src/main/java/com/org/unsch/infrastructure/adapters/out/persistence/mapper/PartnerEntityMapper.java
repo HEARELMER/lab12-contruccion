@@ -1,7 +1,7 @@
-package com.tu.proyecto.infrastructure.adapters.out.persistence.mapper;
+package com.org.unsch.infrastructure.adapters.out.persistence.mapper;
 
-import com.tu.proyecto.domain.model.Partner;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.entity.PartnerEntity;
+import com.org.unsch.domain.model.Partner;
+import com.org.unsch.infrastructure.adapters.out.persistence.entity.PartnerEntity;
 import org.springframework.stereotype.Component;
 
 @Component

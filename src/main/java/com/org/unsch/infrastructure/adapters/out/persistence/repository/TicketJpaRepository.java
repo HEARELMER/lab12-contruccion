@@ -1,6 +1,6 @@
-package com.tu.proyecto.infrastructure.adapters.out.persistence.repository;
+package com.org.unsch.infrastructure.adapters.out.persistence.repository;
 
-import com.tu.proyecto.infrastructure.adapters.out.persistence.entity.TicketEntity;
+import com.org.unsch.infrastructure.adapters.out.persistence.entity.TicketEntity;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.Optional;

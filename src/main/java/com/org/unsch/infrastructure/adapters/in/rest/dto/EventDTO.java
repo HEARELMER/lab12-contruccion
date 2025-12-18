@@ -1,6 +1,6 @@
-package com.tu.proyecto.infrastructure.adapters.in.rest.dto;
+package com.org.unsch.infrastructure.adapters.in.rest.dto;
 
-import com.tu.proyecto.domain.model.Event;
+import com.org.unsch.domain.model.Event;
 
 import java.time.format.DateTimeFormatter;
 

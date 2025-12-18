@@ -1,6 +1,6 @@
-package com.tu.proyecto.domain.ports.in;
+package com.org.unsch.domain.ports.in;
 
-import com.tu.proyecto.domain.model.Partner;
+import com.org.unsch.domain.model.Partner;
 
 import java.util.Optional;
 

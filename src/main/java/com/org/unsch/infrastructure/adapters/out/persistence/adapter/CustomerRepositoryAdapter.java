@@ -1,10 +1,10 @@
-package com.tu.proyecto.infrastructure.adapters.out.persistence.adapter;
+package com.org.unsch.infrastructure.adapters.out.persistence.adapter;
 
-import com.tu.proyecto.domain.model.Customer;
-import com.tu.proyecto.domain.ports.out.CustomerRepositoryPort;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.entity.CustomerEntity;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.mapper.CustomerEntityMapper;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.repository.CustomerJpaRepository;
+import com.org.unsch.domain.model.Customer;
+import com.org.unsch.domain.ports.out.CustomerRepositoryPort;
+import com.org.unsch.infrastructure.adapters.out.persistence.entity.CustomerEntity;
+import com.org.unsch.infrastructure.adapters.out.persistence.mapper.CustomerEntityMapper;
+import com.org.unsch.infrastructure.adapters.out.persistence.repository.CustomerJpaRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package com.tu.proyecto;
+package com.org.unsch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

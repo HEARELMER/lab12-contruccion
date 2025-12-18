@@ -1,18 +1,18 @@
-package com.tu.proyecto.application.service;
+package com.org.unsch.application.service;
 
-import com.tu.proyecto.application.exception.BusinessValidationException;
-import com.tu.proyecto.application.exception.DuplicateResourceException;
-import com.tu.proyecto.application.exception.ResourceNotFoundException;
-import com.tu.proyecto.domain.model.Customer;
-import com.tu.proyecto.domain.model.Event;
-import com.tu.proyecto.domain.model.Partner;
-import com.tu.proyecto.domain.model.Ticket;
-import com.tu.proyecto.domain.model.TicketStatus;
-import com.tu.proyecto.domain.ports.in.EventUseCase;
-import com.tu.proyecto.domain.ports.out.CustomerRepositoryPort;
-import com.tu.proyecto.domain.ports.out.EventRepositoryPort;
-import com.tu.proyecto.domain.ports.out.PartnerRepositoryPort;
-import com.tu.proyecto.domain.ports.out.TicketRepositoryPort;
+import com.org.unsch.application.exception.BusinessValidationException;
+import com.org.unsch.application.exception.DuplicateResourceException;
+import com.org.unsch.application.exception.ResourceNotFoundException;
+import com.org.unsch.domain.model.Customer;
+import com.org.unsch.domain.model.Event;
+import com.org.unsch.domain.model.Partner;
+import com.org.unsch.domain.model.Ticket;
+import com.org.unsch.domain.model.TicketStatus;
+import com.org.unsch.domain.ports.in.EventUseCase;
+import com.org.unsch.domain.ports.out.CustomerRepositoryPort;
+import com.org.unsch.domain.ports.out.EventRepositoryPort;
+import com.org.unsch.domain.ports.out.PartnerRepositoryPort;
+import com.org.unsch.domain.ports.out.TicketRepositoryPort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

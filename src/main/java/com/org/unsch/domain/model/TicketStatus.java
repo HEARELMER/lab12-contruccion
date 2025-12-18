@@ -1,4 +1,4 @@
-package com.tu.proyecto.domain.model;
+package com.org.unsch.domain.model;
 
 public enum TicketStatus {
     PENDING,

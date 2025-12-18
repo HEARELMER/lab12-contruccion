@@ -1,9 +1,9 @@
-package com.tu.proyecto.infrastructure.adapters.in.rest;
+package com.org.unsch.infrastructure.adapters.in.rest;
 
-import com.tu.proyecto.application.exception.DuplicateResourceException;
-import com.tu.proyecto.domain.model.Customer;
-import com.tu.proyecto.domain.ports.in.CustomerUseCase;
-import com.tu.proyecto.infrastructure.adapters.in.rest.dto.CustomerDTO;
+import com.org.unsch.application.exception.DuplicateResourceException;
+import com.org.unsch.domain.model.Customer;
+import com.org.unsch.domain.ports.in.CustomerUseCase;
+import com.org.unsch.infrastructure.adapters.in.rest.dto.CustomerDTO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

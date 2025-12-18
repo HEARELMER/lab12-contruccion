@@ -1,14 +1,14 @@
-package com.tu.proyecto.infrastructure.adapters.out.persistence.adapter;
+package com.org.unsch.infrastructure.adapters.out.persistence.adapter;
 
-import com.tu.proyecto.domain.model.Customer;
-import com.tu.proyecto.domain.model.Event;
-import com.tu.proyecto.domain.model.Ticket;
-import com.tu.proyecto.domain.ports.out.TicketRepositoryPort;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.entity.CustomerEntity;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.entity.EventEntity;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.entity.TicketEntity;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.mapper.TicketEntityMapper;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.repository.TicketJpaRepository;
+import com.org.unsch.domain.model.Customer;
+import com.org.unsch.domain.model.Event;
+import com.org.unsch.domain.model.Ticket;
+import com.org.unsch.domain.ports.out.TicketRepositoryPort;
+import com.org.unsch.infrastructure.adapters.out.persistence.entity.CustomerEntity;
+import com.org.unsch.infrastructure.adapters.out.persistence.entity.EventEntity;
+import com.org.unsch.infrastructure.adapters.out.persistence.entity.TicketEntity;
+import com.org.unsch.infrastructure.adapters.out.persistence.mapper.TicketEntityMapper;
+import com.org.unsch.infrastructure.adapters.out.persistence.repository.TicketJpaRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;

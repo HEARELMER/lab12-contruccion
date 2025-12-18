@@ -1,14 +1,14 @@
-package com.tu.proyecto.infrastructure.adapters.in.rest;
+package com.org.unsch.infrastructure.adapters.in.rest;
 
-import com.tu.proyecto.application.exception.BusinessValidationException;
-import com.tu.proyecto.application.exception.DuplicateResourceException;
-import com.tu.proyecto.application.exception.ResourceNotFoundException;
-import com.tu.proyecto.domain.model.Event;
-import com.tu.proyecto.domain.model.Partner;
-import com.tu.proyecto.domain.ports.in.EventUseCase;
-import com.tu.proyecto.infrastructure.adapters.in.rest.dto.EventDTO;
-import com.tu.proyecto.infrastructure.adapters.in.rest.dto.PartnerDTO;
-import com.tu.proyecto.infrastructure.adapters.in.rest.dto.SubscribeDTO;
+import com.org.unsch.application.exception.BusinessValidationException;
+import com.org.unsch.application.exception.DuplicateResourceException;
+import com.org.unsch.application.exception.ResourceNotFoundException;
+import com.org.unsch.domain.model.Event;
+import com.org.unsch.domain.model.Partner;
+import com.org.unsch.domain.ports.in.EventUseCase;
+import com.org.unsch.infrastructure.adapters.in.rest.dto.EventDTO;
+import com.org.unsch.infrastructure.adapters.in.rest.dto.PartnerDTO;
+import com.org.unsch.infrastructure.adapters.in.rest.dto.SubscribeDTO;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;

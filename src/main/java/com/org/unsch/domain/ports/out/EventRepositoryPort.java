@@ -1,6 +1,6 @@
-package com.tu.proyecto.domain.ports.out;
+package com.org.unsch.domain.ports.out;
 
-import com.tu.proyecto.domain.model.Event;
+import com.org.unsch.domain.model.Event;
 
 import java.util.Optional;
 

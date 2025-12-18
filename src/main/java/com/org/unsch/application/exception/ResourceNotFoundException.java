@@ -1,4 +1,4 @@
-package com.tu.proyecto.application.exception;
+package com.org.unsch.application.exception;
 
 public class ResourceNotFoundException extends ApplicationException {
 

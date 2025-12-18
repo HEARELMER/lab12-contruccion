@@ -1,7 +1,7 @@
-package com.tu.proyecto.domain.ports.in;
+package com.org.unsch.domain.ports.in;
 
-import com.tu.proyecto.domain.model.Event;
-import com.tu.proyecto.domain.model.Ticket;
+import com.org.unsch.domain.model.Event;
+import com.org.unsch.domain.model.Ticket;
 
 import java.util.Optional;
 

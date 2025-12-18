@@ -1,6 +1,6 @@
-package com.tu.proyecto.infrastructure.adapters.out.persistence.entity;
+package com.org.unsch.infrastructure.adapters.out.persistence.entity;
 
-import com.tu.proyecto.domain.model.TicketStatus;
+import com.org.unsch.domain.model.TicketStatus;
 import jakarta.persistence.*;
 
 import java.time.Instant;

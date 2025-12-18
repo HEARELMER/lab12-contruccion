@@ -1,7 +1,7 @@
-package com.tu.proyecto.infrastructure.adapters.in.rest.dto;
+package com.org.unsch.infrastructure.adapters.in.rest.dto;
 
-import com.tu.proyecto.domain.model.Ticket;
-import com.tu.proyecto.domain.model.TicketStatus;
+import com.org.unsch.domain.model.Ticket;
+import com.org.unsch.domain.model.TicketStatus;
 
 import java.time.Instant;
 

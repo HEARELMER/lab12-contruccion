@@ -1,9 +1,9 @@
-package com.tu.proyecto.application.service;
+package com.org.unsch.application.service;
 
-import com.tu.proyecto.application.exception.DuplicateResourceException;
-import com.tu.proyecto.domain.model.Customer;
-import com.tu.proyecto.domain.ports.in.CustomerUseCase;
-import com.tu.proyecto.domain.ports.out.CustomerRepositoryPort;
+import com.org.unsch.application.exception.DuplicateResourceException;
+import com.org.unsch.domain.model.Customer;
+import com.org.unsch.domain.ports.in.CustomerUseCase;
+import com.org.unsch.domain.ports.out.CustomerRepositoryPort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,4 +1,4 @@
-package com.tu.proyecto.infrastructure.adapters.in.rest.dto;
+package com.org.unsch.infrastructure.adapters.in.rest.dto;
 
 public class SubscribeDTO {
 

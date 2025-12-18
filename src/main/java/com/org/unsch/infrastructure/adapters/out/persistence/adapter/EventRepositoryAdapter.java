@@ -1,10 +1,10 @@
-package com.tu.proyecto.infrastructure.adapters.out.persistence.adapter;
+package com.org.unsch.infrastructure.adapters.out.persistence.adapter;
 
-import com.tu.proyecto.domain.model.Event;
-import com.tu.proyecto.domain.ports.out.EventRepositoryPort;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.entity.EventEntity;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.mapper.EventEntityMapper;
-import com.tu.proyecto.infrastructure.adapters.out.persistence.repository.EventJpaRepository;
+import com.org.unsch.domain.model.Event;
+import com.org.unsch.domain.ports.out.EventRepositoryPort;
+import com.org.unsch.infrastructure.adapters.out.persistence.entity.EventEntity;
+import com.org.unsch.infrastructure.adapters.out.persistence.mapper.EventEntityMapper;
+import com.org.unsch.infrastructure.adapters.out.persistence.repository.EventJpaRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
