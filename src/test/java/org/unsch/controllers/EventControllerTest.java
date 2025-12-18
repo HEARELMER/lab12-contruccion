@@ -11,14 +11,14 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.transaction.annotation.Transactional;
-import org.unsch.dtos.EventDTO;
-import org.unsch.dtos.PartnerDTO;
-import org.unsch.dtos.SubscribeDTO;
-import org.unsch.models.Customer;
-import org.unsch.models.Partner;
-import org.unsch.repositories.CustomerRepository;
-import org.unsch.repositories.EventRepository;
-import org.unsch.repositories.PartnerRepository;
+import org.unsch.infrastructure.adapters.in.rest.dto.EventDTO;
+import org.unsch.infrastructure.adapters.in.rest.dto.PartnerDTO;
+import org.unsch.infrastructure.adapters.in.rest.dto.SubscribeDTO;
+import org.unsch.domain.model.Customer;
+import org.unsch.domain.model.Partner;
+import org.unsch.infrastructure.adapters.out.persistence.repository.CustomerJpaRepository;
+import org.unsch.infrastructure.adapters.out.persistence.repository.EventJpaRepository;
+import org.unsch.infrastructure.adapters.out.persistence.repository.PartnerJpaRepository;
 
 @ActiveProfiles("test")
 @AutoConfigureMockMvc
@@ -32,13 +32,13 @@ class EventControllerTest {
     private ObjectMapper mapper;
 
     @Autowired
-    private CustomerRepository customerRepository;
+    private CustomerJpaRepository customerRepository;
 
     @Autowired
-    private PartnerRepository partnerRepository;
+    private PartnerJpaRepository partnerRepository;
 
     @Autowired
-    private EventRepository eventRepository;
+    private EventJpaRepository eventRepository;
 
     private Customer johnDoe;
     private Partner disney;

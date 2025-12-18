@@ -10,8 +10,8 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.unsch.dtos.CustomerDTO;
-import org.unsch.repositories.CustomerRepository;
+import org.unsch.infrastructure.adapters.in.rest.dto.CustomerDTO;
+import org.unsch.infrastructure.adapters.out.persistence.repository.CustomerJpaRepository;
 
 @ActiveProfiles("test")
 @AutoConfigureMockMvc
@@ -25,7 +25,7 @@ public class CustomerControllerTest {
     private ObjectMapper mapper;
 
     @Autowired
-    private CustomerRepository customerRepository;
+        private CustomerJpaRepository customerRepository;
 
     @AfterEach
     void tearDown() {

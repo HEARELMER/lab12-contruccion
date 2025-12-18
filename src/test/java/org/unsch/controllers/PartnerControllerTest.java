@@ -10,8 +10,8 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.unsch.dtos.PartnerDTO;
-import org.unsch.repositories.PartnerRepository;
+import org.unsch.infrastructure.adapters.in.rest.dto.PartnerDTO;
+import org.unsch.infrastructure.adapters.out.persistence.repository.PartnerJpaRepository;
 
 @ActiveProfiles("test")
 @AutoConfigureMockMvc
@@ -25,7 +25,7 @@ public class PartnerControllerTest {
     private ObjectMapper mapper;
 
     @Autowired
-    private PartnerRepository partnerRepository;
+        private PartnerJpaRepository partnerRepository;
 
     @AfterEach
     void tearDown() {
